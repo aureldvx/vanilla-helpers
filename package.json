@@ -1,0 +1,25 @@
+{
+  "name": "elmthelpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "watch": "./node_modules/.bin/tsc --watch",
+    "build": "./node_modules/.bin/tsc",
+    "tests": "./node_modules/.bin/jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-typescript": "^7.14.5",
+    "@types/jest": "^26.0.24",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6",
+    "tsc": "^1.20150623.0",
+    "typescript": "^4.2.4"
+  }
+}

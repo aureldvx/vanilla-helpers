@@ -1,0 +1,9 @@
+{
+  "verbose": true,
+  "testEnvironment": "jsdom",
+  "moduleNameMapper": {
+    "@core/(.*)$": "<rootDir>/src/$1",
+    "@tests/(.*)$": "<rootDir>/tests/$1",
+    "@typing/(.*)$": "<rootDir>/internal-types/$1"
+  }
+}
